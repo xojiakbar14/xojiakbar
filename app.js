@@ -50,9 +50,9 @@ searchBtn.addEventListener("click", () => {
     })
     .catch(() => {
       if (countryName.length == 0) {
-        result.innerHTML = ` <h3>Input hich qanaqa qiymatga ega emas!</h3>`;
+        result.innerHTML = ` <h3>Input hich qanaqa qiymatga ega emas!nommi (yoz gandon)</h3>`;
       } else {
-        result.innerHTML = `<h3>Iltimos davlat nomini to'g'ri yoki to'liq yozing!</h3>`;
+        result.innerHTML = `<h3>Iltimos davlat nomini to'g'ri yoki to'liq yozing!(bomasam dnx)</h3>`;
       }
     });
 });
